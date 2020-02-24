@@ -4,6 +4,10 @@ font-family: 'Lalezar', cursive;
 font-family: 'Ultra', serif;
 font-family: 'Fugaz One', cursive; */
 
+html {
+    height: max-content;
+}
+
 #sign {
     font-size: 140%;
     font-weight: 900;
@@ -18,6 +22,12 @@ body {
     /* background-size: cover; */
     font-weight: 900;
     z-index: 99;
+}
+
+.orderHeader {
+    display: inline-flex;
+    width: 49%;
+    justify-content: center;
 }
 
 .footer {

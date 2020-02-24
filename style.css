@@ -1,0 +1,133 @@
+/* font quick reference:
+font-family: 'Righteous', cursive;
+font-family: 'Lalezar', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Fugaz One', cursive; */
+
+#sign {
+    font-size: 140%;
+    font-weight: 900;
+    color: red;
+    text-align: center;
+}
+
+body {
+    background-image: url(Assets/Instruments.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Krona One', ;
+    font-weight: 900;
+    z-index: 99;
+}
+
+.todo {
+    float: right;
+    color: lightsalmon;
+}
+
+label {
+    margin: 0;
+}
+
+.container {
+    margin-bottom: 1vw;
+}
+
+.card, .heading {
+    background-color: rgba(255, 255, 255, .9);
+    font-size: 100%;
+}
+
+h1, .card-header, .btn-link {
+    text-align: center;
+    font-size: 100%;
+}
+
+.btn-link {
+    font-weight: 900;
+}
+
+.click {
+    justify-content: center;
+}
+
+#pageTitle {
+    font-family: sans-serif;
+    display: block;
+    font-size: 300%;
+    background-color: rgba(255, 255, 255, .85);
+    margin-top: 1vw;
+}
+
+.btn-danger {
+    font-size: 200%;
+}
+
+.reference {
+    font-size: .8vw;
+}
+
+.table {
+    font-size: 100%;
+}
+
+.sign2 {
+    font-size: 200%;
+    margin-bottom: 0;
+}
+
+td {
+    width: 20%;
+}
+
+.orderNum {
+    display: inline-flex;
+    width: 48%;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+.checkList {
+    text-align: unset;
+}
+
+/* #counter {
+    display: none !important;
+} */
+
+.hidden, #counter {
+    display: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    td {
+        background-color: lightblue;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #pageTitle {
+        font-size: 200%;
+    }
+    #sign {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (max-width: 667px) {
+    td {
+        background-color: lightblue;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    #pageTitle {
+        font-size: 150%;
+    }
+    #sign {
+        font-size: 100%;
+    }
+}

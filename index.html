@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- GOOGLE ANALYTICS TRACKING -->
+
+
+
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Lalezar|Righteous|Ultra|Krona+One&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Mood PC Checklist</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading"></div>
+        <h1 id="pageTitle" class="card"><strong>MOOD</strong><span id="colon"
+                style="color:red;font-family: Georgia, 'Times New Roman', Times, serif"><strong>:</strong></span>MEDIA<br>
+            <span style="margin: 0 auto;font-size: 80%;margin-top: -1rem;">Checklist</span></h1>
+        <div id="accordion">
+            <div class="orderNum">
+                <h3 id="salesOrder"></h3>
+                <form>
+                    SO #:<input type="text" class="input" id="SO" name="SO">
+                    <input type="submit" class="input" id="submitSO" value="Save">
+                </form>
+            </div>
+
+            <div class="orderNum">
+                <h3 id="salesOrder"></h3>
+                <form>
+                    PO #:<input type="text" class="input" id="PO" name="PO">
+                    <input type="submit" class="input" id="submitPO" value="Save">
+                </form>
+            </div>
+
+            <!-- CARD 1 -->
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link btn-block" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                            Install Orders </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        <form class="checkList">
+                            <input type="checkbox" id="preWire" name="preWire">
+                            <label for="preWire">Prewire Needed</label>
+                            <span class="todo">TODO:IF CHECKED: PW Date -> Generate ship date & Request date - 2 weeks
+                                prior to PW date
+                            </span>
+
+                            <hr><input type="checkbox" id="soundInstall" name="soundInstall">
+                            <label for="soundInstall">Sound Install</label>
+                            <span class="todo">TODO:IF CHECKED: # of speakers? // Amp/equalizer needed? // Mounts? // rack &
+                                head end location
+                            </span>
+
+                            <hr><input type="checkbox" id="videoInstall" name="videoInstall">
+                            <label for="videoInstall">Video Install</label>
+                            <span class="todo">TODO:IF CHECKED: # of screens // # of devices // Mounts // Power & Network
+                                location
+                            </span>
+
+                            <hr><input type="checkbox" id="qsrInstall" name="qsrInstall">
+                            <label for="qsrInstall">Drive-Thru Install</label>
+                            <span class="todo">TODO:IF CHECKED: PREWIRE DATE INPUT - Also Generate "needed by" date - 2 weeks
+                                prior to PW date
+                            </span>
+
+                            <hr>Other:
+                            <br><input type="checkbox" id="other1" name="other1">
+                            <label for="other1">Set Request Date for Equipment</label>
+                            <br><input type="checkbox" id="other2" name="other2">
+                            <label for="other2">Check item availability</label>
+                            <br><input type="checkbox" id="other3" name="other3">
+                            <label for="other3">Check item availability</label>
+                        </form>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link btn-block collapsed" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Relate Job to Sub
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        TODO
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- CARD 3 -->
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-block btn-link" data-toggle="collapse" data-target="#collapseFour"
+                            aria-expanded="false" aria-controls="collapseFour">
+                            Generating PO for labor </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        TODO
+                    </div>
+                </div>
+
+
+                <!-- CARD 4 -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link btn-block collapsed" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Ready To Bill</button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            TODO
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>TO DO:
+        <ul>
+            <li>Consolidate info & render to single doc</li>
+            <li>write SO/PO on page</li>
+            <li>copy function for SO/PO</li>
+            <li>Parts conditional terms e.g. speakers have mounts? QSR have acoutsic kits? etc...</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

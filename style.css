@@ -20,6 +20,14 @@ body {
     z-index: 99;
 }
 
+.checkbox {
+    margin-right: 1%;
+}
+
+.input:hover {
+    background-color: rgb(253, 99, 99);
+}
+
 .todo {
     float: right;
     color: lightsalmon;

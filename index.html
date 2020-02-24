@@ -179,8 +179,75 @@
                     </div>
                 </div>
             </div>
+
+            <!-- CARD 5 -->
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-block btn-link" data-toggle="collapse" data-target="#collapseFive"
+                            aria-expanded="false" aria-controls="collapseFour">
+                            ON HOLD Process </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        <p><h4><strong>Entered or Booked Orders</strong></h4>
+                            <ul>
+                                <li>First prior to requesting order be placed on hold PC/PM contacts the Rep (AE,
+                                    IDSR) with a cc to Rep’s Manager and Internal Sale Support group email (For PSM, AMS, SSM, only notify the Rep) and gives them 30 days before order will be put on hold to be canceled/voided. Notes in the system must be updated and clearly state why the job is being placed on hold and that the Rep has been contacted. Change Forecast date on Installation Master to the end of the next Quarter.</li><br>
+
+                                <li><u>PC/PM will do the following on the 31 st day:</u>
+                                    <ol type="i">
+                                        <li>Create RMA order if equipment has already been shipped and relate to
+                                            Installation Master incident, create return label and send to sub/client/tech. Add return label to attachments on Installation Master Incident. If equipment needs to be RTV, follow the RTV process.<br><br>
+                                            <ol type="a">
+                                                <li>If Sales Order is not released yet, PC to make sure Request Date
+                                                    is blank.</li>
+                                                <li>NOTE: Do not cancel a Sales Order. Do not Zero out money on a
+                                                    Sales Order.</li>
+                                                <li>NOTE: Pay subcontractors if they still need to be paid for any
+                                                    work performed.</li>
+                                            </ol>
+                                        </li><br>
+                                        <li>Assign Sales Order Owner to Service Delivery Senior Manager[ and
+                                            changesub
+                                            type to “cancellation” for all orders needing to be cancelled.</li>
+                                        <li>Make status of Installation Parent and Installation Master Child – Hold
+                                            [*see below
+                                            if only part of the job is going on hold].</li>
+                                        <li>Change Subject: On Hold to be canceled on Installation Parent and
+                                            Installation Master
+                                            Child</li>
+                                        <li>Close/Completed all other open incidents owned by you.</li>
+                                        <li>Assign Installation Parent and Installation Master Child to SD Manager.</li>
+                                    </ol><br>
+
+                                <li>SD Manager places information onto On Hold spreadsheet and assigns
+                                    incidents to SD Director after verifying process has been followed to include a
+                                    return label being sent to retrieve the equipment.</li>
+                                </li>
+                            </ul>
+
+                            <h4><strong>*If only part of the job needs to go on hold for separate sales orders (More
+                                than 1 Sales order and one complete order needs to go on hold):</strong></h4>
+                            <ol type="i">
+                                <li>Create New Installation Master Incident and mark status as Hold. Relate
+                                    to Parent Installation Incident.</li>
+                                <li>Change Subject: On Hold to be canceled for New Installation Master
+                                    Incident</li>
+                                <li>Installation Parent will continue through the regular RTB/Billing
+                                    process. (DO NOT change the status of the Installation Parent to Hold)</li>
+                                <li>Relate Sales Order and/or RMA order if applicable that needs to be
+                                    placed on hold to the new Installation Master. Remove the relationship to the old
+                                    Installation Master.</li>
+                                <li>Assign the new Installation Master Child to SD Senior Manager.</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
     </div>
     <div class="todo" style="float:unset;">TO DO:
         <ul>
@@ -189,7 +256,12 @@
             <li>copy function for SO/PO</li>
             <li>Parts conditional terms e.g. speakers have mounts? QSR have acoutsic kits? etc...</li>
         </ul>
-    </div><br>
+    </div>
+
+
+
+
+    <br>
     <div class="footer"><img id="logo" src="Assets/Logo-Mood-Media.jpg" />
     </div>
 

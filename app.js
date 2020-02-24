@@ -25,4 +25,4 @@ $("#SOReEnter").click(function () {
     console.log("SO Re-Enter button pressed");
     event.preventDefault();
     $(".SOForm").show();
-})
+}) 

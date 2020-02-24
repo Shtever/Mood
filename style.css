@@ -12,11 +12,10 @@ font-family: 'Fugaz One', cursive; */
 }
 
 body {
-    /* background-image: url(Assets/Logo-Mood-Media.jpg); */
-    background-repeat: no-repeat;
+    background-color: lightgray;
+    contain: content;
     background-position: top;
     /* background-size: cover; */
-    font-family: 'Krona One', ;
     font-weight: 900;
     z-index: 99;
 }
@@ -30,6 +29,11 @@ body {
     text-align: center;
 }
 
+.other{
+    text-align: center;
+    margin: 0;
+}
+
 #logo {
     width: 10vw;
 }
@@ -38,8 +42,13 @@ body {
     margin-right: 1%;
 }
 
+.input {
+
+}
+
 .input:hover {
-    background-color: rgb(253, 99, 99);
+    background-color: lightsalmon;
+    color: white;
 }
 
 .todo {

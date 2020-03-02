@@ -22,7 +22,7 @@ function checks(boxID, sub, id, lbl){
         }
         event.preventDefault();
     });
-}
+} 
 
 // ******* Run ALL checkbox functions ******* //
 function allCheckboxes(){
